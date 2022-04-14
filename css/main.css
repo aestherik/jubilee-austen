@@ -1,0 +1,152 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 300px;
+    background-image: url('../img/hero-image.png');
+    background-size: cover;
+    background-position: center;
+    border-top: #77a466 2px solid;
+    border-bottom: #77a466 2px solid;
+}
+
+/* Rogue Pickings */
+
+header h1 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 23px;
+    /* padding: 65px 0 65px 25px; */
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+/***** NAVIGATION *****/
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 0px 0;
+}
+
+#about h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+}
+ 
+#about p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/***** TODAY'S SPECIALS *****/
+
+#specials {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#specials h4 {
+    font-size: 25px;
+    line-height: 16px;
+    margin: 0 auto;
+}
+ 
+#specials p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #77a466;
+}
+
+/***** REVIEWS *****/
+
+#reviews h4 {
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: bold;
+}
+
+#reviews p {
+    font-size: 21px;
+    line-height: 16px;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact h4 {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+#contact p {
+    font-size: 24px;
+    line-height: 16px;
+}
+
+/***** FOOTER *****/
+
+#footer h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#footer h2 span {
+    font-family: 'Galada', cursive;
+    font-size: 16pt;
+    color: #77a466 
+}
